@@ -1,0 +1,29 @@
+# Power BI
+# PBIX files are intentionally tracked because the final report is part of the portfolio
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python (if used for ad-hoc exploration)
+__pycache__/
+*.pyc
+.env
+venv/
+*.egg-info/
+
+# MySQL credentials
+*.cnf
+my.ini
+
+# Large output files
+outputs/power_bi/*.png
+
+# IDE
+.vscode/
+.idea/
